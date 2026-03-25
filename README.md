@@ -1,6 +1,6 @@
-# 🔐 Brute Force Lab com Medusa, Kali Linux e DVWA
+#  Brute Force Lab com Medusa, Kali Linux e DVWA
 
-## 📌 Objetivo
+## Objetivo
 
 Este projeto tem como objetivo simular ataques de força bruta em um ambiente controlado, utilizando Kali Linux e a ferramenta Medusa, em conjunto com o Metasploitable 2 e DVWA (Damn Vulnerable Web Application).
 
@@ -8,7 +8,7 @@ A proposta é entender como esses ataques funcionam na prática e como podem ser
 
 ---
 
-## ⚙️ Ambiente Utilizado
+## Ambiente Utilizado
 
 * Kali Linux
 * Metasploitable 2
@@ -17,7 +17,7 @@ A proposta é entender como esses ataques funcionam na prática e como podem ser
 
 ---
 
-## 🌐 Configuração de Rede
+## Configuração de Rede
 
 * Kali Linux: 192.168.56.X
 * Metasploitable 2: 192.168.56.103
@@ -26,7 +26,7 @@ Conectividade validada via `ping` e varredura com Nmap.
 
 ---
 
-## 🔍 Reconhecimento (Nmap)
+## Reconhecimento (Nmap)
 
 Foi realizada uma varredura de portas para identificar serviços ativos no alvo.
 
