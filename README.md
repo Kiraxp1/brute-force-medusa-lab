@@ -87,6 +87,8 @@ smbclient //192.168.56.103/tmp -U msfadmin
 
 ### DVWA (Brute Force Web)
 
+![Reconhecimento](images/dvwa-login-interface.png)
+
 Ferramenta: Hydra
 
 Comando utilizado:
@@ -94,27 +96,12 @@ Comando utilizado:
 ```
 hydra -l admin -P pass.txt 192.168.56.103 http-get-form "/dvwa/vulnerabilities/brute/:username=^USER^&password=^PASS^&Login=Login:Login failed"
 ```
+![Reconhecimento](images/dvwa-brute-force-hydra-success.png)
 
 Observações:
 
 * O Medusa não foi eficaz para formulários web
 * Foi necessário utilizar Hydra devido ao uso de sessões e parâmetros HTTP
-
----
-
-##  Estrutura do Projeto
-
-```
-brute-force-medusa-lab/
-│
-├── README.md
-├── wordlists/
-│   ├── users.txt
-│   └── pass.txt
-├── images/
-│   └── initial-recon.png
-└── commands.txt
-```
 
 ---
 
